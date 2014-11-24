@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.pitch{
+	width:600px;
+	float:left;
+	background:url(../images/pitch.png) top left repeat-y;
+	position:absolute;
+	}
+.player,.opponent{
+	height:250px;
+	width:90px;
+	position:absolute;
+	}
+.player{
+	left:250px;
+	bottom:100px;
+	background:url(../images/player.png) top center no-repeat;
+	}
+.opponent{
+	background:url(../images/opponent.png) top center no-repeat;
+	}
+.information{
+	width:240px;
+	padding:5px;
+	float:left;
+	margin-left:620px;
+	background:#ddd;	
+	}
+#left,#right{
+	height:120px;
+	width:120px;
+	float:left;
+	}
+.score{
+	color:#FFFFFF;
+	background:url(../images/score-bg.png) top left no-repeat;
+	display:block;
+	line-height:40px;
+	font-size:30px;
+	text-align:center;
+	border:2px solid #FF0000;
+	border-radius:5px;
+	margin-bottom:5px;
+	}
+.fire{
+	width:16px;
+	height:60px;
+	background:url(../images/bullet.png) top left no-repeat;
+	position:absolute;
+	border-radius:5px 5px 0 0;
+	}
+p span{color:#FF0000;}
