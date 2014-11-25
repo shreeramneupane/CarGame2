@@ -1,5 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
+.wrapper{
+	height:600px;
+	overflow:hidden;
+	position:relative;
+	}
 .pitch{
 	width:600px;
 	float:left;
